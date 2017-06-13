@@ -18,6 +18,10 @@
 		D945478B1EEFD33D00F022E7 /* GridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D945478A1EEFD33D00F022E7 /* GridViewCell.xib */; };
 		D945478D1EEFD34200F022E7 /* DemoElongationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D945478C1EEFD34200F022E7 /* DemoElongationCell.xib */; };
 		D945478F1EEFD35200F022E7 /* DemoElongationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945478E1EEFD35200F022E7 /* DemoElongationCell.swift */; };
+		D94547941EEFD50E00F022E7 /* Villa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94547931EEFD50E00F022E7 /* Villa.swift */; };
+		D94547961EEFD72700F022E7 /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94547951EEFD72700F022E7 /* LoremSwiftum.swift */; };
+		D94547981EEFD74800F022E7 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94547971EEFD74800F022E7 /* UIFont.swift */; };
+		D945479C1EEFD85E00F022E7 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945479B1EEFD85E00F022E7 /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,14 @@
 		D945478A1EEFD33D00F022E7 /* GridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridViewCell.xib; sourceTree = "<group>"; };
 		D945478C1EEFD34200F022E7 /* DemoElongationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoElongationCell.xib; sourceTree = "<group>"; };
 		D945478E1EEFD35200F022E7 /* DemoElongationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoElongationCell.swift; sourceTree = "<group>"; };
+		D94547901EEFD4E800F022E7 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D94547911EEFD4E800F022E7 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D94547921EEFD4E800F022E7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D94547931EEFD50E00F022E7 /* Villa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Villa.swift; sourceTree = "<group>"; };
+		D94547951EEFD72700F022E7 /* LoremSwiftum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoremSwiftum.swift; sourceTree = "<group>"; };
+		D94547971EEFD74800F022E7 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		D945479A1EEFD82600F022E7 /* ElongationPreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElongationPreview.h; sourceTree = "<group>"; };
+		D945479B1EEFD85E00F022E7 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,10 @@
 		D94547711EEFCE2F00F022E7 /* StyleLongation */ = {
 			isa = PBXGroup;
 			children = (
+				D94547991EEFD7B400F022E7 /* Resources */,
+				D94547901EEFD4E800F022E7 /* Roboto-Bold.ttf */,
+				D94547911EEFD4E800F022E7 /* Roboto-Medium.ttf */,
+				D94547921EEFD4E800F022E7 /* Roboto-Regular.ttf */,
 				D945478C1EEFD34200F022E7 /* DemoElongationCell.xib */,
 				D945478A1EEFD33D00F022E7 /* GridViewCell.xib */,
 				D94547721EEFCE2F00F022E7 /* AppDelegate.swift */,
@@ -79,8 +95,20 @@
 				D94547841EEFD1CF00F022E7 /* DetailViewController.swift */,
 				D94547881EEFD2F900F022E7 /* GridViewCell.swift */,
 				D945478E1EEFD35200F022E7 /* DemoElongationCell.swift */,
+				D94547931EEFD50E00F022E7 /* Villa.swift */,
+				D94547951EEFD72700F022E7 /* LoremSwiftum.swift */,
+				D94547971EEFD74800F022E7 /* UIFont.swift */,
+				D945479B1EEFD85E00F022E7 /* UITableView.swift */,
 			);
 			path = StyleLongation;
+			sourceTree = "<group>";
+		};
+		D94547991EEFD7B400F022E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D945479A1EEFD82600F022E7 /* ElongationPreview.h */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94547941EEFD50E00F022E7 /* Villa.swift in Sources */,
+				D94547961EEFD72700F022E7 /* LoremSwiftum.swift in Sources */,
 				D94547851EEFD1CF00F022E7 /* DetailViewController.swift in Sources */,
 				D94547751EEFCE3100F022E7 /* ViewController.swift in Sources */,
+				D94547981EEFD74800F022E7 /* UIFont.swift in Sources */,
+				D945479C1EEFD85E00F022E7 /* UITableView.swift in Sources */,
 				D94547891EEFD2F900F022E7 /* GridViewCell.swift in Sources */,
 				D94547731EEFCE2F00F022E7 /* AppDelegate.swift in Sources */,
 				D945478F1EEFD35200F022E7 /* DemoElongationCell.swift in Sources */,

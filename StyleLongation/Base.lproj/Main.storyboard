@@ -26,7 +26,7 @@
         <!--Detail View Controller-->
         <scene sceneID="Fuk-jP-bak">
             <objects>
-                <tableViewController storyboardIdentifier="DetailViewController" id="6OQ-P4-m6s" customClass="DetailViewController" customModule="ElongationPreviewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="DetailViewController" id="6OQ-P4-m6s" customClass="DetailViewController" customModule="StyleLongation" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" id="3VO-Mj-jQy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
