@@ -13,6 +13,11 @@
 		D945477A1EEFCE3200F022E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94547791EEFCE3200F022E7 /* Assets.xcassets */; };
 		D945477D1EEFCE3200F022E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D945477B1EEFCE3200F022E7 /* LaunchScreen.storyboard */; };
 		D94547851EEFD1CF00F022E7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94547841EEFD1CF00F022E7 /* DetailViewController.swift */; };
+		D94547871EEFD2DC00F022E7 /* ElongationPreview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94547861EEFD2DB00F022E7 /* ElongationPreview.framework */; };
+		D94547891EEFD2F900F022E7 /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94547881EEFD2F900F022E7 /* GridViewCell.swift */; };
+		D945478B1EEFD33D00F022E7 /* GridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D945478A1EEFD33D00F022E7 /* GridViewCell.xib */; };
+		D945478D1EEFD34200F022E7 /* DemoElongationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D945478C1EEFD34200F022E7 /* DemoElongationCell.xib */; };
+		D945478F1EEFD35200F022E7 /* DemoElongationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945478E1EEFD35200F022E7 /* DemoElongationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		D945477C1EEFCE3200F022E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D945477E1EEFCE3200F022E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D94547841EEFD1CF00F022E7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D94547861EEFD2DB00F022E7 /* ElongationPreview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ElongationPreview.framework; sourceTree = "<group>"; };
+		D94547881EEFD2F900F022E7 /* GridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
+		D945478A1EEFD33D00F022E7 /* GridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridViewCell.xib; sourceTree = "<group>"; };
+		D945478C1EEFD34200F022E7 /* DemoElongationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoElongationCell.xib; sourceTree = "<group>"; };
+		D945478E1EEFD35200F022E7 /* DemoElongationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoElongationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94547871EEFD2DC00F022E7 /* ElongationPreview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,7 @@
 			children = (
 				D94547711EEFCE2F00F022E7 /* StyleLongation */,
 				D94547701EEFCE2F00F022E7 /* Products */,
+				D94547861EEFD2DB00F022E7 /* ElongationPreview.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +68,8 @@
 		D94547711EEFCE2F00F022E7 /* StyleLongation */ = {
 			isa = PBXGroup;
 			children = (
+				D945478C1EEFD34200F022E7 /* DemoElongationCell.xib */,
+				D945478A1EEFD33D00F022E7 /* GridViewCell.xib */,
 				D94547721EEFCE2F00F022E7 /* AppDelegate.swift */,
 				D94547741EEFCE3100F022E7 /* ViewController.swift */,
 				D94547761EEFCE3100F022E7 /* Main.storyboard */,
@@ -63,6 +77,8 @@
 				D945477B1EEFCE3200F022E7 /* LaunchScreen.storyboard */,
 				D945477E1EEFCE3200F022E7 /* Info.plist */,
 				D94547841EEFD1CF00F022E7 /* DetailViewController.swift */,
+				D94547881EEFD2F900F022E7 /* GridViewCell.swift */,
+				D945478E1EEFD35200F022E7 /* DemoElongationCell.swift */,
 			);
 			path = StyleLongation;
 			sourceTree = "<group>";
@@ -128,7 +144,9 @@
 			files = (
 				D945477D1EEFCE3200F022E7 /* LaunchScreen.storyboard in Resources */,
 				D945477A1EEFCE3200F022E7 /* Assets.xcassets in Resources */,
+				D945478B1EEFD33D00F022E7 /* GridViewCell.xib in Resources */,
 				D94547781EEFCE3100F022E7 /* Main.storyboard in Resources */,
+				D945478D1EEFD34200F022E7 /* DemoElongationCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +159,9 @@
 			files = (
 				D94547851EEFD1CF00F022E7 /* DetailViewController.swift in Sources */,
 				D94547751EEFCE3100F022E7 /* ViewController.swift in Sources */,
+				D94547891EEFD2F900F022E7 /* GridViewCell.swift in Sources */,
 				D94547731EEFCE2F00F022E7 /* AppDelegate.swift in Sources */,
+				D945478F1EEFD35200F022E7 /* DemoElongationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +282,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = StyleLongation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xiao-lu.StyleLongation";
@@ -274,6 +298,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = StyleLongation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xiao-lu.StyleLongation";
